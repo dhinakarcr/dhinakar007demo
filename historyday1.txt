@@ -1,0 +1,46 @@
+    1  pwd
+    2  c:pwd
+    3  c:
+    4  cd c:
+    5  cd ..
+    6  cd c:
+    7  pwd
+    8  mkdir devops1
+    9  ls
+   10  cd devopstab/
+   11  echo this is first program > newprogram1.yaml
+   12  cat newprogram1.yaml 
+   13  git init
+   14  git status
+   15  git add .
+   16  git commit -m "first program" newprogram1.yaml 
+   17  get config --global user.email "cr.dhinakar@gmail.com"
+   18  git config --global user.email "cr.dhinakar@gmail.com"
+   19  git config --global user.name "dhinakar"
+   20   git commit -m "first program" newprogram1.yaml
+   21  git status
+   22  echo this is 2nd program > newprogram2.yaml
+   23  cat newprogram1.yaml 
+   24  cat newprogram2.yaml 
+   25  ls
+   26  git status
+   27  git add .
+   28  git commit -m "2nd program" newprogram2.yaml 
+   29  git log 
+   30  git status
+   31  git remote
+   32  git remote add origin https://github.com/dhinakarcr/dhinakar007demo.git
+   33  git branch -M main
+   34  git push -u origin main
+   35  git log 
+   36  git remote
+   37  echo this is 3rd program > newprogram3.yaml
+   38  cat newprogram3.yaml
+   39  git add .
+   40  git commit -m "3rd program" newprogram3.yaml 
+   41  ls
+   42  git remote 
+   43  git push -u origin main
+   44  git log --oneline
+   45  git status
+   46  history > historyday1.txt
